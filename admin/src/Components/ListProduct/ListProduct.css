@@ -1,0 +1,141 @@
+/* General Container Styling */
+.list-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Section Styling */
+  .listproduct-header {
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr 1.5fr 1.5fr 1.5fr 1fr;
+    gap: 20px;
+    width: 100%;
+    padding: 15px 0;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 15px;
+  }
+  
+  /* Remove margin from paragraphs in header */
+  .listproduct-header p {
+    margin: 0;
+  }
+  
+  /* Product Grid Styling */
+  .listproduct-format-main {
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr 1.5fr 1.5fr 1.5fr 1fr;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 15px 0;
+    color: #454545;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    transition: background 0.3s ease;
+  }
+  
+  /* Hover Effect for Product Rows */
+  .listproduct-format-main:hover {
+    background: #f9f9f9;
+  }
+  
+  /* Icon Styling */
+  .listproduct-product-icon {
+    cursor: pointer;
+    margin: auto;
+    max-width: 60px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover Effect on Product Icon */
+  .listproduct-product-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Remove Icon Styling */
+  .listproduct-remove-icon {
+    cursor: pointer;
+    margin: auto;
+    max-width: 25px;
+    height: auto;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  /* Hover Effect on Remove Icon */
+  .listproduct-remove-icon:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  
+  /* Scrollable Product List Styling */
+  .listproduct-allproducts {
+    width: 100%;
+    max-height: 600px;
+    overflow-y: auto;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  /* Custom Scrollbar Styling */
+  .listproduct-allproducts::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .listproduct-allproducts::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .listproduct-allproducts::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .listproduct-allproducts::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* Heading Styling */
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .list-product {
+      width: 90%;
+      padding: 15px 25px;
+    }
+    
+    .listproduct-header,
+    .listproduct-format-main {
+      grid-template-columns: 1fr 2fr 1fr;
+    }
+    
+    h1 {
+      font-size: 26px;
+    }
+  }
+  
