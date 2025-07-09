@@ -1,0 +1,53 @@
+/* Container for the thank you message */
+.thank-you-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    margin-top: 100px;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px; /* Adjusted height */
+    transition: all 0.3s ease;
+  }
+  
+  /* Styling for the heading */
+  .thank-you-container h2 {
+    font-size: 2.5em;
+    color: #D32F2F; /* Red color */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Styling for the paragraph */
+  .thank-you-container p {
+    font-size: 1.3em;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+    margin-top: 0; /* Remove margin top for better spacing */
+  }
+  
+  /* Styling for the button */
+  .thank-you-container button {
+    background-color: #D32F2F; /* Red background */
+    color: white;
+    font-size: 1.2em;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+  .thank-you-container button:hover {
+    background-color: #C62828; /* Darker red on hover */
+  }
+  

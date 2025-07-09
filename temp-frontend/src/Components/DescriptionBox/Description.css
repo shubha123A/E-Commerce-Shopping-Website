@@ -1,0 +1,44 @@
+.descriptionbox {
+    margin: 120px 170px;
+  }
+  
+  .descriptionbox-navigator {
+    margin-bottom: 20px;
+  }
+  
+  .descriptionbox-nav {
+    display: flex;
+    gap: 20px; /* spacing between Description and Reviews */
+  }
+  
+  .descriptionbox-nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 171px;
+    height: 70px;
+    border: 1px solid #d0d0d0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .descriptionbox-nav-box:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .descriptionbox-nav-box.fade {
+    opacity: 0.6;
+  }
+  
+  .descriptionbox-nav-box.fade:hover {
+    opacity: 1;
+  }
+  
+  .descriptionbox-description {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
