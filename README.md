@@ -53,15 +53,11 @@ temp frontend/ – React frontend application
 
 backend/ – Backend API and server logic
 
-admin/ – Admin panel (if applicable)
+admin/ – Admin panel 
 
 public/ – Static public assets
 
 src/ – React source code
-
-temp-frontend/ – Temporary/testing frontend
-
-.gitignore – Ignored files
 
 package.json – Project dependencies
 
@@ -76,7 +72,7 @@ git clone https://github.com/shubha123A/E-Commerce-Shopping-Website.git
 
 Navigate to the frontend folder
 
-cd frontend
+cd temp-frontend
 
 
 Install dependencies
