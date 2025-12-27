@@ -37,11 +37,11 @@ View user and order details
 
 🧰 Tech Stack
 
-Frontend: React.js, JavaScript, HTML, CSS
+Frontend: React.js, JavaScript, HTML, CSS.
 
-Backend: Node.js / Express (if applicable)
+Backend: Node.js and Express.js
 
-Database: MongoDB (if used)
+Database: MongoDB 
 
 Package Manager: npm
 
